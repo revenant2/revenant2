@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'NewRodin Pro';
-  src: url('/revenant2/resources/fonts/FOT-NewRodinPro-EB.otf') format("opentype");
+  src: url('/resources/fonts/FOT-NewRodinPro-EB.otf') format("opentype");
 }
 
 * {
@@ -189,7 +189,7 @@ aside {
 }
 
 aside > header {
-  background-image: url('/revenant2/resources/images/header.png');
+  background-image: url('/resources/images/header.png');
   background-size: 1px 36px;
   box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.2) inset, 0 2px 4px rgba(0, 0, 0, 0.2);
   outline: 1px solid #222222;
@@ -284,7 +284,7 @@ aside > header {
 
 main {
   background-color: black;
-  background-image: url('/revenant2/resources/images/background.png');
+  background-image: url('/resources/images/background.png');
   background-position: center;
   background-size: cover;
   display: flex;
@@ -310,7 +310,7 @@ main h1 {
 footer {
   align-items: center;
   background-color: #E7F7FD;
-  background-image: url('/revenant2/resources/images/footer.png');
+  background-image: url('/resources/images/footer.png');
   background-repeat: repeat-x;
   background-size: contain;
   border-top: 1px solid #50C9EB;

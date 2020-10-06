@@ -5,74 +5,74 @@ var notes = 'C,C#,D,D#,E,F,F#,G,G#,A,A#,B'.split(',')
 var presetSounds = [
   {
     name: 'Grand Piano',
-    fileName: '/revenant2/resources/samples/grandPiano.wav'
+    fileName: '/resources/samples/grandPiano.wav'
   },
   {
     name: 'Nintendo DS Piano',
-    fileName: '/revenant2/resources/samples/nintendoDsPiano.mp3',
+    fileName: '/resources/samples/nintendoDsPiano.mp3',
     rootPitch: 69
   },
   {
     name: 'Electric Piano',
-    fileName: '/revenant2/resources/samples/electricPiano.wav'
+    fileName: '/resources/samples/electricPiano.wav'
   },
   {
     name: 'Brass 1',
-    fileName: '/revenant2/resources/samples/brass1.wav',
+    fileName: '/resources/samples/brass1.wav',
     rootPitch: 65
   },
   {
     name: 'Brass 2',
-    fileName: '/revenant2/resources/samples/brass2.wav',
+    fileName: '/resources/samples/brass2.wav',
     rootPitch: 79
   },
   {
     name: 'Horns',
-    fileName: '/revenant2/resources/samples/horns.wav',
+    fileName: '/resources/samples/horns.wav',
     rootPitch: 65
   },
   {
     name: 'Saxophone 1',
-    fileName: '/revenant2/resources/samples/saxophone1.wav'
+    fileName: '/resources/samples/saxophone1.wav'
   },
   {
     name: 'Saxophone 2',
-    fileName: '/revenant2/resources/samples/saxophone2.wav',
+    fileName: '/resources/samples/saxophone2.wav',
     rootPitch: 76
   },
   {
     name: 'Trumpet',
-    fileName: '/revenant2/resources/samples/trumpet.wav',
+    fileName: '/resources/samples/trumpet.wav',
     rootPitch: 65
   },
   {
     name: 'Electric Guitar',
-    fileName: '/revenant2/resources/samples/electricGuitar.wav',
+    fileName: '/resources/samples/electricGuitar.wav',
     rootPitch: 79
   },
   {
     name: 'Xylophone',
-    fileName: '/revenant2/resources/samples/xylophone.wav',
+    fileName: '/resources/samples/xylophone.wav',
     rootPitch: 72
   },
   {
     name: 'Synth Lead 1',
-    fileName: '/revenant2/resources/samples/synthLead1.mp3',
+    fileName: '/resources/samples/synthLead1.mp3',
     rootPitch: 69
   },
   {
     name: 'Synth Lead 2',
-    fileName: '/revenant2/resources/samples/synthLead2.mp3',
+    fileName: '/resources/samples/synthLead2.mp3',
     rootPitch: 75
   },
   {
     name: 'Synth Lead 3',
-    fileName: '/revenant2/resources/samples/synthLead3.wav',
+    fileName: '/resources/samples/synthLead3.wav',
     rootPitch: 67
   },
   {
     name: 'Synth Pad',
-    fileName: '/revenant2/resources/samples/synthPad.mp3',
+    fileName: '/resources/samples/synthPad.mp3',
     rootPitch: 69
   },
   {
@@ -81,7 +81,7 @@ var presetSounds = [
   },
   {
     name: 'Oof!',
-    fileName: '/revenant2/resources/samples/oof.wav',
+    fileName: '/resources/samples/oof.wav',
     rootPitch: 72
   }
 ]
