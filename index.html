@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/revenant2/vendor/normalize.css" />
+    <link rel="stylesheet" href="/revenant2/style.css" />
+    <title>Revenant²</title>
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <aside>
+        <header>
+          <img alt="Revenant 2.5 logo" width="118" height="38" src="/revenant2/resources/images/logo.png" />
+        </header>
+
+        <div id="soundsContainer">
+          <div id="sounds">
+            <section>
+              <header>
+                <h2>My Samples</h2>
+                <button id="addUserSample" class="icon"><img width="16" height="16" src="/revenant2/resources/images/add.png"></button>
+              </header>
+
+              <div id="mySamples" class="soundList"></div>
+
+              <div id="sampleDropArea">
+                <p><strong>Drag .FLAC, .MP3, .WAV</strong> to add samples.</p>
+              </div>
+            </section>
+
+            <section>
+              <header>
+                <h2>Preset Sounds</h2>
+              </header>
+
+              <div id="presetSounds" class="soundList"></div>
+            </section>
+          </div>
+        </div>
+      </aside>
+
+      <main>
+        <h1 id="activeVoices"></h1>
+        <h1 style="position: absolute; top: 0; left: 0; opacity: 0;">_</h1>
+      </main>
+    </div>
+
+    <footer>
+      <p><a title=";)" href="https://github.com/revenant2">@revenant2</a> - v2.5.0 (April-October 2020)</p>
+      
+      <span id="octave">
+        <h3>Octave: <span id="currentOctave">4</span>
+      </span>
+    </footer>
+
+    <input id="fileChooser" type="file"/>
+    <script src="/revenant2/vendor/tone.js"></script>
+    <script src="/revenant2/index.js"></script>
+  </body>
+</html>
